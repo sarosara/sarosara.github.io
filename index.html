@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>더 바디샵</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700&display=swap&subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--   1. header  -->
+    <!--    로고, 탑메뉴, 메인메뉴-->
+    <header>
+        <!--        100% 검정띠 넣기 -->
+        <div class="center clearFix">
+            <!--        1-1. logo-->
+            <h1 class="logo">
+                <a href="#"><img src="images/tbs-logo.svg" alt="the faceshop logo"></a>
+            </h1>
+
+            <!--        1-2. 탑메뉴 왼쪽-->
+            <ul class="leftGnb">
+                <li><a href="#"><i class="map"></i><span>매장안내</span></a></li>
+                <li><a href="#"><i class="card"></i><span>LYB 멤버십</span></a></li>
+            </ul>
+
+            <!--        1-3 탑메뉴 오른쪽-->
+            <ul class="rightGnb">
+                <!--           li*5>a[href="#"]-->
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+            </ul>
+
+            <!--        메인메뉴-->
+            <ul id="nav">
+                <li><a href="#">NEWS &amp; EVENT</a>
+                    <!--           ul.sub>li*3>a[href="#"]-->
+                    <ul class="sub">
+                        <li><a href="#">NEW IN</a></li>
+                        <li><a href="#">BEST SELLERS</a></li>
+                        <li><a href="#">EVENT</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">#더바디샵_선물하기</a></li>
+                <li><a href="#">SKIN CARE</a></li>
+                <li><a href="#">BATH &amp; BODY</a></li>
+                <li><a href="#">MAKE UP</a></li>
+                <li><a href="#">FRAGRANCE</a></li>
+                <li><a href="#">HAIR</a></li>
+                <li><a href="#">SHOP BY RANGE</a></li>
+                <li><a href="#">#SALE</a></li>
+            </ul>
+            <!--        1-4 form-->
+            <form id="search">
+                <input type="text" value="검색어를 입력하세요">
+                <input type="image" src="images/icon_search.svg" alt="돋보기">
+            </form>
+        </div>
+    </header>
+    <hr>
+
+    <!-- 2. 본문 -->
+    <!--    메인배너, 상품, 이벤트, 공지사항..-->
+    <div id="container" class="center">
+        <div class="visual">
+            <ul>
+                <li><a href="#"><img src="images/390fa8ef_4062_48e6_9175_2a5654fe077c.jpg" alt="두피고민타파"></a></li>
+                <li><a href="#"><img src="images/64f49a3e-c93d-42d9-a33b-312a52448221.jpg" alt="power"></a></li>
+                <li><a href="#"><img src="images/3a1fc6df-ff96-463f-8f95-a652cd51df75.jpg" alt="선물세트 기획전"></a></li>
+            </ul>
+        </div>
+        <!--        2-2 본문내용 -->
+        <section class="contents">
+            <!--  blind 이름을 줘서 디자인시 화면에서 안보이게 만들어줌, 리더기를 통해 읽혀짐-->
+            <h2 class="blind">이벤트, 기획이벤트, 특가상품...</h2>
+            <section class="event clearFix">
+
+                <h2 class="blind">이벤트</h2>
+                <ul>
+                    <!--                   li*3>a[href="#"]>img+div.textBox-->
+                    <li><a href="#">
+                            <img src="images/5580840b_d5cc_4c26_a3ac_a2f12a6e8cc9.jpg" alt="">
+                            <div class="textBox">
+                                <strong>깨끗한 피부를 위한 티트리</strong>
+                                <span class="text1">케냐의 티트리 잎 오일로 가꾸는 깨끗한 피부!
+                                    더바디샵 티트리로 맑고 건강한 피부로 관리해주세요!</span>
+                                <span class="more">자세히 보기</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/fe678c28_c853_4a50_979e_8fe6320f64e7.jpg" alt="">
+                            <div class="textBox">
+                                <strong>Special 구매 사은품 증정</strong>
+                                <span class="text1">온라인 회원님들께만 드리는 특별한 선물
+                                    온라인 몰에서 5만원 이상 구매시 미니 바디버터 증정!</span>
+                                <span class="more">자세히 보기</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <img src="images/fe678c28_c853_4a50_979e_8fe6320f64e7.jpg" alt="">
+                            <div class="textBox">
+                                <strong>멤버십 특별 기획 세트 멤버십 특별 기획 세트</strong>
+                                <span class="text1">7월 14일까지만 <br>만나볼 수 있는 구성들을 만나보세요!!!!!!!!</span>
+                                <span class="more">자세히 보기</span>
+                            </div>
+                        </a></li>
+                </ul>
+            </section>
+            <section class="newItem clearFix">
+                <h2 class="title">NEW IN! 신제품 만나보기</h2>
+                <ul>
+                    <li>
+                        <span class="new">new</span>
+                        <img src="images/23607_represent.jpg" alt="a">
+                        <i></i>
+                        <p class="itemName">제품1</p>
+                        <p class="price">10000</p>
+                        <ul class="like">
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#"><img src="images/icon_wishlist.svg" alt="wish"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="new">new</span>
+                        <img src="images/30235_represent.jpg" alt="b">
+                        <i></i>
+                        <p class="itemName">제품2</p>
+                        <p class="price">20000</p>
+                        <ul class="like">
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#"><img src="images/icon_wishlist.svg" alt="wish"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="new">new</span>
+                        <img src="images/96005_represent.jpg" alt="c">
+                        <i></i>
+                        <p class="itemName">제품3</p>
+                        <p class="price">30000</p>
+                        <ul class="like">
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#"><img src="images/icon_wishlist.svg" alt="wish"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="new">new</span>
+                        <img src="images/882343_represent.jpg" alt="d">
+                        <i></i>
+                        <p class="itemName">제품4</p>
+                        <p class="price">40000</p>
+                        <ul class="like">
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#"><img src="images/icon_wishlist.svg" alt="wish"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </section>
+            <section class="theWorld">
+                <h2 class="title">EMPOWERING WOMEN AROUND THE WORLD</h2>
+                <div>
+                    <img src="images/main_title_sale_img02_625x358.jpg" alt="">
+                    <p class="text">더바디샵은 1987년 화장품 업계 최초로 공정무역을 시작하였습니다.<br>
+                        공정무역을 통해 여성들에게 안정적인 일자리를 제공하고<br>
+                        더 나은 미래를 꿈꾸게 도와주고 있습니다.</p>
+                </div>
+                <p class="theMore"><a href="#">자세히보기</a></p>
+            </section>
+        </section>
+
+    </div>
+
+    <!-- 3. footer -->
+    <!--    하단로고, 하단메뉴, 주소, sns-->
+    <footer>
+        <div class="footTop">
+            <!-- 회색배경 100% 넣기 -->
+            <div class="center">
+                <ul class="sns">
+                    <li><a href="#"><img src="images/icon_facebook.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/icon_youtube.svg" alt="youtube"></a></li>
+                    <li><a href="#"><img src="images/icon_instagram.jpg" alt="imstagram"></a></li>
+                    <li><a href="#" class="newBtn">뉴스레터 가입하기</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footBottom">
+            <div class="center">
+                <address>
+                    <p>(주)비에스케이코퍼레이션대표이사:박종호서울시 강남구 학동로 401 13층 고객센터 080-759-7700 팩스 02-759-0788</p>
+                    <p>개인정보관리책임자:오미경공정거래위원회 고시 제 2000-1호에 따른 사업자등록번호 116-81-62784</p>
+                    <p>이메일 주소 : <a href="#">webmaster@thebodyshop.co.kr</a> 통신판매업신고번호 제 2010-서울강남-02017호 3</p>
+                    <p><a href="#">사업자정보확인</a> <a href="#">온라인이용약관</a> 호스팅 사업자 (주)비에스케이코퍼레이션</p>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body></html>
+
+
+
+
+
+
